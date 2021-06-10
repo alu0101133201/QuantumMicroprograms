@@ -73,5 +73,5 @@ frac = Fraction(phase).limit_denominator(15)
 s, r = frac.numerator, frac.denominator
 print(r)
 
-guesses = [gcd(a**(r//2)-1, N), gcd(a**(r//2)+1, N)]
+guesses = [gcd(7**(r//2)-1, N), gcd(7**(r//2)+1, N)]
 print(guesses)
